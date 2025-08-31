@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker / Background Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Color Picker / Background Changer</h1>
+        
+        <div class="color-options">
+            <div class="color-btn" style="background-color: #FF6B6B;" data-color="#FF6B6B"></div>
+            <div class="color-btn" style="background-color: #4ECDC4;" data-color="#4ECDC4"></div>
+            <div class="color-btn" style="background-color: #FFE66D;" data-color="#FFE66D"></div>
+            <div class="color-btn" style="background-color: #1A535C;" data-color="#1A535C"></div>
+            <div class="color-btn" style="background-color: #FF9F1C;" data-color="#FF9F1C"></div>
+            <div class="color-btn" style="background-color: #6B48FF;" data-color="#6B48FF"></div>
+        </div>
+        
+        <div class="custom-color">
+            <label for="color-picker">Choose a custom color:</label>
+            <input type="color" id="color-picker" class="color-input" value="#4ECDC4">
+        </div>
+        
+        <button class="random-btn" id="random-color">Random Color</button>
+        
+        <div class="color-display" id="color-code">#FFFFFF</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
